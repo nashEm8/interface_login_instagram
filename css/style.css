@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+/* Criando variáveis dos atributos que mais vamos utilizar */
+
+:root{
+    --borda: 1px solid #ccc;
+    --tom_azul: #328aea;
+    --tom_cinza: #9c9b9c;
+    --tom_branco: #fff;
+}
+
+body{
+    background-color: #fbfafb;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Conteúdo do lado esquerdo */
+
+.lado_esquerdo{
+    margin-right: 10px;
+}
+
+.lado_esquerdo img{
+    width: 280px;
+}
+
+/* Conteúdo do lado direito */
+
+.lado_direito{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.infor_login, .nova_conta{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--tom_branco);
+    border: var(--borda);
+    padding: 22px 0;
+    margin-bottom: 12px;
+}
+
+/* Definindo tamanho das imagens do lado direito */
+
+.infor_login .logo img{
+    width: 170px;
+    margin-bottom: 15px;
+}
+
+.infor_login .foto_perfil img{
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.infor_login .botao_login{
+    width: 70%;
+    background-color: var(--tom_azul);
+    padding: 7px;
+    color: var(--tom_branco);
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+.infor_login .remover_conta{
+    color: var(--tom_azul);
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.criar_conta{
+    text-align: center;
+}
+
+.nova_conta div:nth-child(1){
+    color: var(--tom_cinza);
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.nova_conta div:nth-child(2){
+    color: var(--tom_cinza);
+    cursor: pointer;
+}
+
+.nova_conta div span{
+    color: var(--tom_azul);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.acessar_app div:nth-child(1){
+    color: var(--tom_cinza);
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.acessar_app img{
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+

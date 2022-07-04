@@ -1,0 +1,28 @@
+@media (max-width: 1024px){
+    .conteudo{
+        width: 80%;
+    }
+
+    .lado_esquerdo, .lado_direito{
+        margin: 0 5px;
+    }
+
+    .infor_login .logo img{
+        width: 140px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 650px){
+    .conteudo{
+        width: 90%;
+    }
+
+    .lado_esquerdo{
+        display: none;
+    }
+
+    .lado_direito{
+        width: 100%;
+    }
+}
